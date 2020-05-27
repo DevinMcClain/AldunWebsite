@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Aldun</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src= "Home.js"></script>
+        <link rel='stylesheet' type='text/css' href='Home.css' />
+    </head>
+    <body>
+        <div class='Text-1'>
+            <h1>Aldun</h1>
+        </div>
+        <div id="login-menu">
+        <div class='form'>
+            <input type="email" placeholder="email" id="email"/>
+            <input type="password" placeholder="password" id="password"/>
+            <button onclick="signIn()" id="signIn" onclick="varification" data-hover="Welcome Hero"> Sign In </button>       
+            <button a href='#' class="newAccount" data-hover="Sign Up Here"> Don't have an account yet? </button>
+        </form>
+        <form class="registration">
+            <input type="email" placeholder="email" id="nemail"/>
+            <input type="password" placeholder="password" id="npassword"/>
+            <button onclick="signUp()" class="signUp"> Sign Up </button>
+        </form>
+        </div>
+        </div>
+        </body>
+</html>

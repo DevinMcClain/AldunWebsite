@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url(Fonts/Dukeplus/DUKEPLUS.ttf);
+    font-family: MedievalFonts;
+ }
+.Text-1 {
+    font-family: MedievalFonts;
+    color: rgb(175, 201, 224);
+    font-size: 50;
+    text-align: center;
+    padding: 10;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+body {
+    background-image: url(Images/AldunBackgrounds.jpg);
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.Main-Menu {
+    /*float: right;*/
+    list-style: none;
+    text-align: center;
+    background-color: rgb(175, 201, 224);
+    padding: 3px;
+    margin-bottom: 30px;
+}
+.Main-Menu li {
+    display: inline-block;
+}
+.Main-Menu li a {
+    background-color: rgb(175, 201, 224);
+    color: black;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    font-family: MedievalFonts;
+    font-size: 40;
+    border-color: rgb(252, 254, 255);
+    border-style: ridge;
+    border-width: 4px;
+    line-height: 1.75;
+}
+.Main-Menu li a:hover{
+    background-color: white;
+}
+.NotificationBoardHeader{
+    font-size: 30;
+    font-family: MedievalFonts;
+}
+.NotificationBoard {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(175, 201, 224);
+    float: right;
+    width: 40%;
+    height: 100%;
+    border: 2px solid;
+    margin-right: 40px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.WelcomeTitle {
+    font-family: MedievalFonts;
+    font-size: 30;
+}
+.WelcomeBoard {
+    background-color: rgb(175, 201, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: left;
+    width: 40%;
+    height: 70%;
+    border: 2px solid;
+    margin-left: 40px;
+    line-height: 2;
+}
+.ListHeader {
+    font-family: MedievalFonts;
+    font-weight: bold;
+    text-align: center;
+}
+.ContentList {
+    list-style-type: none;
+    text-align: center;
+}
+.CorebookLink, .CorebookLink:visited, .CorebookLink:active{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 22;
+    font-family: Medieval
+}
+.CorebookLink:hover{
+    color: white;
+}
+.ContactLink, .CorebookLink:visited, .CorebookLink:active{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 22;
+}
+.ContactLink:hover{
+    color: white;
+}

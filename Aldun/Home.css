@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url(Fonts/Dukeplus/DUKEPLUS.ttf);
+    font-family: MedievalFonts;
+ }
+ body {
+    background-image: url(Images/AldunBackgrounds.jpg);
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.Text-1 {
+    font-family: MedievalFonts;
+    color: rgb(175, 201, 224);
+    font-size: 50;
+    text-align: center;
+    padding: 10;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#login-menu {
+    height: 85%;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 360px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+}
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background-color:rgba(255, 255, 255, .3);
+    width: 100%;
+    margin: 10px 0px 15px 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    border: 3px solid white;
+}
+.form input::placeholder {
+    color: black;
+}
+#signIn {
+    font-family: MedievalFonts;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+}
+#signIn:hover {
+    background-color: rgba(0, 255, 242, 0.3);
+    font-size: 0;
+}
+#signIn:hover:after{
+    font-family: MedievalFonts;
+    content: attr(data-hover);
+    font-size: 20px;
+}
+.newAccount {
+    font-family: MedievalFonts;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 20px;
+    cursor: pointer;
+}
+.newAccount:hover {
+    background-color: rgba(0, 255, 242, 0.3);
+    font-size: 0;
+}
+.newAccount:hover:after{
+    content: attr(data-hover);
+    font-size: 20px;
+    font-family: MedievalFonts;
+}
+.registration{
+    display: none;
+}
+.signUp {
+    font-family: MedievalFonts;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-top: 10px;
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 20px;
+    cursor: pointer;
+}
+.SignUp:hover {
+    background-color: rgba(0, 255, 242, 0.3);
+    font-size: 20px;
+}

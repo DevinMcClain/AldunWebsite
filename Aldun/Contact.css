@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url(Fonts/Dukeplus/DUKEPLUS.ttf);
+    font-family: MedievalFonts;
+ }
+.Text-1 {
+    font-family: MedievalFonts;
+    color: rgb(175, 201, 224);
+    font-size: 50;
+    text-align: center;
+    padding: 10;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+body {
+    background-image: url(Images/AldunBackgrounds.jpg);
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.Main-Menu {
+    /*float: right;*/
+    list-style: none;
+    text-align: center;
+    background-color: rgb(175, 201, 224);
+    padding: 3px;
+    margin-bottom: 30px;
+}
+.Main-Menu li {
+    display: inline-block;
+}
+.Main-Menu li a {
+    background-color: rgb(175, 201, 224);
+    color: black;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    font-family: MedievalFonts;
+    font-size: 40;
+    border-color: rgb(252, 254, 255);
+    border-style: ridge;
+    border-width: 4px;
+    line-height: 1.75;
+}
+.Main-Menu li a:hover{
+    background-color: white;
+}
+.SocialMedia{
+    margin-left: 50px;
+    width: 334px;
+    min-width: 334px;
+}
+.SocialMediaTitle{
+    font-family: MedievalFonts;
+    width: cover;
+    text-align: center;
+
+}
+.SocialMediaLinks{
+    background-color: rgb(175, 201, 224);
+    border: 3px solid black;
+    padding: 5px;
+}
+.fa {
+    padding: 15px;
+    font-size: 80px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.fa:hover {
+    opacity: 0.8;
+}
+.fa-twitter {
+    background-color: #55ACEE;
+    color:white;
+}
+.AboutUsTitle{
+    font-family: MedievalFonts;
+    text-align: center;
+}
+.EmailUs{
+    background-color: rgb(175, 201, 224);
+    width: 334px;
+    border: 3px solid black;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.EmailUsTitle{
+    font-family: MedievalFonts;
+    text-align: center;
+    width: 334px;
+}
+.Emails{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    font-size: 20px;
+}
+.EmailUs a:hover{
+    background-color: #777;
+}
+.AboutUs{
+    background-color: rgb(175, 201, 224);
+    float: right;
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 2;
+    min-width: 300px;
+    max-width: 70%;
+    margin-right: 20px;
+}

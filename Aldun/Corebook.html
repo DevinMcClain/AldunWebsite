@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Aldun</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <script src="Home.js"></script>
+    <link rel='stylesheet' type='text/css' href='Corebook.css' />
+    <script src='Corebook.js'></script>
+</head>
+<body>
+    <div class='Text-1'>
+        <h1>Aldun</h1>
+    </div>
+    <div class='Menu'>
+        <ul class='Main-Menu'>
+            <li><a href='Main.html'> Home </a></li>
+            <li><a href='Map.html'> Map </a></li>
+            <li><a href='Character.html'> Character </a></li>
+            <li><a href='Corebook.html'> Corebook </a></li>
+            <li><a href='Download.html'> Download </a></li>
+            <li><a href='Contact.html'> Contact </a></li>
+            <li><a href='Home.html' onclick = 'signOut()' class = 'signOut'> Sign Out</a></ul>
+        </ul>
+    </div>
+    <div class='ButtonTab'>
+        <button class="tablink" onclick="openPage('Corebook', this)">Corebook</button>
+        <button class="tablink" onclick="openPage('Strength-Constitution', this)">Strength-Constitution</button>
+        <button class="tablink" onclick="openPage('Wisdom', this)">Wisdom</button>
+        <button class="tablink" onclick="openPage('Charisma', this)">Charisma</button>
+        <button class="tablink" onclick="openPage('Intelligence', this)">Intelligence</button>
+        <button class="tablink" onclick="openPage('Dexterity', this)">Dexterity</button>
+    </div>
+
+    <div id="Corebook" class="tabcontent">
+        <a href='corebooks/Aldun Core Rulebook- V 1.5.pdf' data-tab-content>Corebook</a>
+    </div>
+
+    <div id="Strength-Constitution" class="tabcontent">
+        <a href='Corebooks/Strength And Constitution Core Book- V 1.5 .pdf'>Strength-Constitution</a> 
+    </div>
+
+    <div id="Wisdom" class="tabcontent">
+        <a href='Corebooks/Wisdom Core- V 1.5.pdf' data-tab-content>Wisdom</a>
+    </div>
+
+    <div id="Charisma" class="tabcontent">
+        <a href='Corebooks/Charisma Core Book- V 1.5.pdf' data-tab-content>Charisma</a>
+    </div>
+
+    <div id="Intelligence" class="tabcontent">
+        <a href='Corebooks/Intelligence Core Book- V 1.5.pdf' data-tab-content>Intelligence</a>
+    </div>
+
+    <div id="Dexterity" class="tabcontent">
+        <a href='Corebooks/Dexterity Core- V 1.5.pdf' data-tab-content>Dexterity</a>
+    </div>
+</body>
+</html>
